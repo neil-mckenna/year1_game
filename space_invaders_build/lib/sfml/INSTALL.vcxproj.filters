@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\space_invaders_build\CMakeFiles\1bdfcec46ef77411e282fda1deb71998\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5BB86381-2DBC-3C20-8E2B-F431E5726CBC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
