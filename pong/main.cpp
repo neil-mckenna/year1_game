@@ -1,4 +1,6 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
+#include <filesystem> // C++17
 
 using namespace sf;
 using namespace std;
@@ -10,7 +12,11 @@ const Keyboard::Key controls[4] = {
     Keyboard::Down // Player2 Down
 };
 
+sf::Font font;
+sf::Text text;
 
+static int leftScore = 0;
+static int rightScore = 0;
 
 // game parameters
 const Vector2f paddleSize(25.f, 100.f);
@@ -49,6 +55,12 @@ void Reset()
 
     // reset ball speed
     ballVelocity = { (isPlayer1Serving ? initialVelocityX : -initialVelocityX), initialVelocityY };
+
+    // Update text
+    text.setString("Score: " + std::to_string(leftScore) + " : " + std::to_string(rightScore));
+    // Keep score  text centered
+    text.setPosition((gameWidth * .5f) - (text.getLocalBounds().width * 0.5f), 0);
+    text.setFillColor(sf::Color::White); // Set the text color
 }
 
 
@@ -61,6 +73,15 @@ void Load() {
     }
 
     Reset();
+
+    // Load font-face from res directory
+    font.loadFromFile("../res/fonts/Roboto/Roboto-Regular.ttf");
+
+    // Set text elemetn to use font
+    text.setFont(font);
+
+    // set the character size to 24 pxiels
+    text.setCharacterSize(24);
 
 }
 
@@ -91,19 +112,49 @@ void Update(RenderWindow &window)
     float direction = 0.0f;
     if (Keyboard::isKeyPressed(controls[0]))
     {
+
         direction--;
     }
 
-    float diretcion = 0.0f;
     if (Keyboard::isKeyPressed(controls[1]))
     {
         direction++;
     }
 
-    // left paddle
-    paddles[0].move(Vector2f(0.f, direction * paddleSpeed * dt));
-    // right paddle
-    paddles[1].move(Vector2f(0.f, direction * paddleSpeed * dt));
+    // left paddle with boundaries
+    if (paddles[0].getPosition().y <= 0 + paddleSize.y / 2) {
+        //cout << "Hit roof " << endl;
+        paddles[0].move(Vector2f(0.f, 0.5f)); // Top boundary clamp
+    }
+    else if (paddles[0].getPosition().y >= gameHeight - paddleSize.y / 2) {
+        //cout << "Hit bottom " << endl;
+        paddles[0].move(Vector2f(0.f, -0.5f)); // Bottom clamp
+    }
+    else {
+        paddles[0].move(sf::Vector2f(0.f, direction * paddleSpeed * dt));
+    }
+
+    // Move the paddle towards the ball's y position for simple AI
+    //cout << "Y Pos" << paddles[1].getPosition().y << endl;
+
+    if (
+        paddles[1].getPosition().y < ball.getPosition().y + ballRadius &&
+        paddles[1].getPosition().y >= 0 &&
+        paddles[1].getPosition().y < gameHeight - paddleSize.y / 2
+
+        )
+    {
+        paddles[1].move(0.f, paddleSpeed * dt);  // Move down
+    }
+    else if (
+        paddles[1].getPosition().y > ball.getPosition().y + ballRadius
+        && paddles[1].getPosition().y >= 0 + paddleSize.y / 2
+        )
+    {
+        paddles[1].move(0.f, -paddleSpeed * dt);  // Move up
+    }
+
+
 
     // ball movement
     ball.move(ballVelocity * dt);
@@ -125,10 +176,12 @@ void Update(RenderWindow &window)
     }
     else if (bx > gameWidth) {
         // right wall
+        leftScore++;
         Reset();
     }
     else if (bx < 0) {
         // left wall
+        rightScore++;
         Reset();
     }
     // paddle collision
@@ -168,16 +221,26 @@ void Update(RenderWindow &window)
 
 void Render(RenderWindow &window)
 {
+    text.setPosition((gameWidth * .5f) - (text.getLocalBounds().width * 0.5f), 0);
+
     // Draw Everything
     window.draw(paddles[0]);
     window.draw(paddles[1]);
     window.draw(ball);
+    window.draw(text); // Draw the text
 
 }
 
 int main()
 {
     RenderWindow window(VideoMode(gameWidth, gameHeight), "PONG");
+
+    // this was debug to find current working directory
+    /*
+    std::filesystem::path currentPath = std::filesystem::current_path();
+    std::cout << "Current working directory: " << currentPath << std::endl;
+    */
+
     Load();
 
     while (window.isOpen())
