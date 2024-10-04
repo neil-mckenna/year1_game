@@ -22,7 +22,7 @@ Invader::Invader(sf::IntRect ir, sf::Vector2f pos) : Ship(ir)
 
 void Invader::Update(const float& dt)
 {
-	std::cout << "X: " << getPosition().x << " Y: " << getPosition().y << endl;
+	//std::cout << "X: " << getPosition().x << " Y: " << getPosition().y << endl;
 	Ship::Update(dt);
 
 	move(Vector2f(dt * (direction ? 1.0f : -1.0f) * speed, 0.0f));
@@ -49,10 +49,6 @@ void Invader::Update(const float& dt)
 	{
 		movedDownThisCycle = false;
 	}
-
-
-
-
 
 
 }

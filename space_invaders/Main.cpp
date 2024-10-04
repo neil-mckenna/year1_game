@@ -3,13 +3,12 @@
 #include <iostream>
 #include "Ship.hpp"
 #include "Invader.hpp"
+#include "Game.hpp"
+#include "Player.hpp"
 
 
 using namespace std;
 using namespace sf;
-
-const int gameWidth = 800;
-const int gameHeight = 600;
 
 
 std::vector<Ship *> ships;
@@ -24,16 +23,34 @@ void Load()
 		cerr << "Failed to load spritesheet" << endl;
 	}
 
-	//invader.setTexture(spritesheet);
-	//invader.setTextureRect(IntRect(Vector2i(0, 0), Vector2i(32, 32)));
 
-	Invader* inv1 = new Invader(sf::IntRect(Vector2(0, 0), Vector2(32, 32)), { 100, 100 });
-	Invader* inv2 = new Invader(sf::IntRect(Vector2(0, 0), Vector2(32, 32)), { 200, 200 });
+	//Invader* inv1 = new Invader(sf::IntRect(Vector2(0, 0), Vector2(32, 32)), { 100, 100 });
+	//Invader* inv2 = new Invader(sf::IntRect(Vector2(0, 0), Vector2(32, 32)), { 200, 200 });
 
+	//ships.push_back(inv1);
+	//ships.push_back(inv2);
 
-	ships.push_back(inv1);
-	ships.push_back(inv2);
+	// Spawning a wave of invaders
+	for (int r = 0; r < invader_rows; ++r)
+	{
+		auto rect = IntRect(Vector2(32, 0), Vector2(32, 32));
+		for (int c = 0; c < invader_columns; c++)
+		{
+			Vector2f position(32.0f * c, 32.0f * r);
+			auto inv = new Invader(rect, position);
 
+			ships.push_back(inv);
+		}
+	}
+
+	Player* player = new Player();
+	player->setColor(Color::Cyan);
+
+	ships.push_back(player);
+
+	cout << "Ships Count : " << ships.size() << endl;
+	cout << "Player Pos : " << player->getPosition().x << " | " << player->getPosition().y << endl;
+	cout << "Player Pos : " << ships[60]->getPosition().x << " | " << ships[60]->getPosition().y << endl;
 
 }
 
@@ -43,7 +60,6 @@ void Render(RenderWindow &window)
 	{
 		window.draw(*s);
 	}
-
 
 
 }
