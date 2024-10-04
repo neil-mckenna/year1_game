@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\pong_build\CMakeFiles\269c651e46447bd9c808aaa3b8771f65\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8263E52A-34F4-31ED-BBB4-0109E95704DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
