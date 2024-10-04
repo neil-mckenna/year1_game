@@ -9,6 +9,10 @@ const Keyboard::Key controls[4] = {
     Keyboard::Up,  // Player2 UP
     Keyboard::Down // Player2 Down
 };
+
+
+
+// game parameters
 const Vector2f paddleSize(25.f, 100.f);
 const float ballRadius = 10.f;
 const int gameWidth = 800;
@@ -19,20 +23,45 @@ const float paddleOffsetWall = 10.f;
 CircleShape ball;
 RectangleShape paddles[2];
 
+// ball movement
+
+Vector2f ballVelocity;
+bool isPlayer1Serving = false;
+
+const float initialVelocityX = 100.f;
+const float initialVelocityY = 60.f;
+
+// ball collision
+const float velocityMultiplier = 1.1f;
+
+void Reset()
+{
+    // Set size and origin of ball
+    ball.setRadius(ballRadius);
+    ball.setOrigin(ballRadius / 2, ballRadius / 2); //Should be half the ball width and height
+
+    // reset paddle position
+    paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f, gameHeight / 2.f));
+    paddles[1].setPosition(Vector2f(gameWidth - paddleOffsetWall - paddleSize.x / 2.f, gameHeight / 2.f));
+
+    // reset Ball Position
+    ball.setPosition(gameWidth / 2, gameHeight / 2);
+
+    // reset ball speed
+    ballVelocity = { (isPlayer1Serving ? initialVelocityX : -initialVelocityX), initialVelocityY };
+}
+
+
 void Load() {
+
     // Set size and origin of paddles
     for (auto &p : paddles) {
         p.setSize(paddleSize);
         p.setOrigin(paddleSize / 2.f);
     }
-    // Set size and origin of ball
-    ball.setRadius(ballRadius);
-    ball.setOrigin(ballRadius / 2, ballRadius / 2); //Should be half the ball width and height
-    // reset paddle position
-    paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f, gameHeight / 2.f));
-    paddles[1].setPosition(Vector2f(gameWidth - paddleOffsetWall - paddleSize.x / 2.f, gameHeight / 2.f));
-    // reset Ball Position
-    ball.setPosition(gameWidth / 2, gameHeight / 2);
+
+    Reset();
+
 }
 
 void Update(RenderWindow &window)
@@ -71,8 +100,68 @@ void Update(RenderWindow &window)
         direction++;
     }
 
+    // left paddle
     paddles[0].move(Vector2f(0.f, direction * paddleSpeed * dt));
+    // right paddle
+    paddles[1].move(Vector2f(0.f, direction * paddleSpeed * dt));
 
+    // ball movement
+    ball.move(ballVelocity * dt);
+
+    // check ball collision
+    const float bx = ball.getPosition().x;
+    const float by = ball.getPosition().y;
+    if (by > gameHeight - ballRadius) { //bottom wall
+        // bottom wall
+        ballVelocity.x *= velocityMultiplier;
+        ballVelocity.y *= -velocityMultiplier;
+        ball.move(Vector2(0.f, -10.f));
+    }
+    else if (by < 0 + ballRadius) { //top wall
+        // top wall
+        ballVelocity.x *= velocityMultiplier;
+        ballVelocity.y *= -velocityMultiplier;
+        ball.move(Vector2(0.f, 10.f));
+    }
+    else if (bx > gameWidth) {
+        // right wall
+        Reset();
+    }
+    else if (bx < 0) {
+        // left wall
+        Reset();
+    }
+    // paddle collision
+    else if (
+        //ball is inline or behind paddle AND
+        bx < paddleSize.x + paddleOffsetWall &&
+        //ball is below top edge of paddle AND
+        by > paddles[0].getPosition().y - (paddleSize.y * 0.5) &&
+        //ball is above bottom edge of paddle
+        by < paddles[0].getPosition().y + (paddleSize.y * 0.5))
+    {
+        // bounce off left paddle
+        ballVelocity.x *= -velocityMultiplier;
+        ballVelocity.y *= velocityMultiplier;
+        ball.move(Vector2(10.f, 0.f));
+    }
+    else if
+        (
+            //ball is inline or behind paddle AND
+            bx > gameWidth - paddleSize.x - paddleOffsetWall &&
+            //ball is below top edge of paddle AND
+            by > paddles[1].getPosition().y - (paddleSize.y * 0.5) &&
+            //ball is above bottom edge of paddle
+            by < paddles[1].getPosition().y + (paddleSize.y * 0.5)
+
+        )
+    {
+        // bounce off right paddle
+        // bounce off left paddle
+        ballVelocity.x *= -velocityMultiplier;
+        ballVelocity.y *= velocityMultiplier;
+        ball.move(Vector2(-10.f, 0.f));
+    }
 
 }
 
