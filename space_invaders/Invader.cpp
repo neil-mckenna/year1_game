@@ -3,6 +3,7 @@
 #include "Invader.hpp"
 #include "Ship.hpp"
 #include "Game.hpp"
+#include "Bullet.hpp"
 
 using namespace sf;
 using namespace std;
@@ -24,6 +25,9 @@ void Invader::Update(const float& dt)
 {
 	//std::cout << "X: " << getPosition().x << " Y: " << getPosition().y << endl;
 	Ship::Update(dt);
+
+	static float fireTime = 0.0f;
+	fireTime -= dt;
 
 	move(Vector2f(dt * (direction ? 1.0f : -1.0f) * speed, 0.0f));
 
@@ -48,6 +52,13 @@ void Invader::Update(const float& dt)
 	else
 	{
 		movedDownThisCycle = false;
+	}
+
+	if (fireTime <= 0 && rand() % 100 == 0)
+	{
+		auto bullet = new Bullet(getPosition(), true);
+		bullet->Fire(getPosition(), true);
+		fireTime = 4.0f + (rand() % 60);
 	}
 
 

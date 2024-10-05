@@ -5,6 +5,7 @@
 #include "Invader.hpp"
 #include "Game.hpp"
 #include "Player.hpp"
+#include "Bullet.hpp"
 
 
 using namespace std;
@@ -12,6 +13,12 @@ using namespace sf;
 
 
 std::vector<Ship *> ships;
+// 0 = 1 player
+std::vector<Ship *> players (0);
+
+static std::vector<Bullet*> bullets;
+std::vector<Bullet*> bulletsToRemove;
+
 
 sf::Texture spritesheet;
 sf::Sprite invader;
@@ -43,22 +50,39 @@ void Load()
 		}
 	}
 
+	// create a player which inherits from Ship / Sprite
 	Player* player = new Player();
-	player->setColor(Color::Cyan);
 
-	ships.push_back(player);
+	// adjust player position to center bottom
+	player->setPosition(gameWidth * 0.5f, gameHeight - 50);
+
+	// add back to vector list
+	players.push_back(player);
 
 	cout << "Ships Count : " << ships.size() << endl;
+	cout << "Players Vector List : " << players.size() << endl;
 	cout << "Player Pos : " << player->getPosition().x << " | " << player->getPosition().y << endl;
-	cout << "Player Pos : " << ships[60]->getPosition().x << " | " << ships[60]->getPosition().y << endl;
 
 }
 
 void Render(RenderWindow &window)
 {
+	// draw invaders ships
 	for (const auto s : ships)
 	{
 		window.draw(*s);
+	}
+
+	// draw players
+	for (const auto p : players)
+	{
+		window.draw(*p);
+	}
+
+	// draw bullets
+	for (const auto b : bullets)
+	{
+		window.draw(*b);
 	}
 
 
@@ -69,6 +93,11 @@ void Update(RenderWindow &window)
 	// Reset clock, recalculate deltatime
 	static Clock clock;
 	float dt = clock.restart().asSeconds();
+	static float timeSinceLastBullet = 0.0f;  // Timer for bullet firing
+	const float bulletCooldown = 0.6f;         // 1 second cooldown
+
+	// Increment the bullet timer
+	timeSinceLastBullet += dt;
 
 	// check and consume events
 	Event event;
@@ -87,13 +116,54 @@ void Update(RenderWindow &window)
 		window.close();
 	}
 
-	for (auto& s : ships)
+	// player shooting
+	if (Keyboard::isKeyPressed(Keyboard::Space) && timeSinceLastBullet >= bulletCooldown)
+	{
+		cout << "Bullet Fired" << " Bullet Size " << bullets.size() << endl;
+		if (players.size() > 0)
+		{
+
+
+			auto bullet = new Bullet(players[0]->getPosition(), false);
+			bullet->Fire(players[0]->getPosition(), false);
+			bullets.push_back(bullet);
+		}
+
+		timeSinceLastBullet = 0.0f;  // Reset the timer
+	}
+
+	// invaders
+	for (auto &s : ships)
 	{
 		s->Update(dt);
 	}
 
+	// players
+	for (auto &p : players)
+	{
+		p->Update(dt);
+	}
+
+	// bullets
+	for (auto& b : bullets)
+	{
+		// Check if the bullet is off-screen
+		if (b->getPosition().y < 0) {
+			bulletsToRemove.push_back(std::move(b)); // Mark bullet for removal
+		}
+
+		b->Update(dt);
+	}
+
+	// Remove the marked bullets
+	for (auto& b : bulletsToRemove) {
+		bullets.erase(std::remove(bullets.begin(), bullets.end(), b), bullets.end());
+	}
+
+
 
 }
+
 
 int main()
 {

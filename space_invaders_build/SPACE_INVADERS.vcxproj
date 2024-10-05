@@ -340,6 +340,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\space_invaders\Bullet.cpp" />
     <ClCompile Include="..\space_invaders\Invader.cpp" />
     <ClCompile Include="..\space_invaders\Main.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -366,6 +367,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\space_invaders\Bullet.hpp" />
     <ClInclude Include="..\space_invaders\Invader.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="Player.hpp" />
