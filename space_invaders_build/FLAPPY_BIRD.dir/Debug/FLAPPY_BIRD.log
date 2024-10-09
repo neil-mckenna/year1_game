@@ -1,0 +1,47 @@
+﻿  Building Custom Rule C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/CMakeLists.txt
+  AssetManager.cpp
+  CMakeCXXCompilerId.cpp
+  Game.cpp
+  InputManager.cpp
+  Main.cpp
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:         with
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:             T=float
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:         and
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:             T=int
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(22,29): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:         with
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:             T=float
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:         and
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:             T=int
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(21,29): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:         with
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:             T=float
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:         and
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:             T=int
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(20,25): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:         with
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:             T=float
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:         ]
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:         and
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:         [
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:             T=int
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp(19,25): warning C4244:         ]
+  State.cpp
+  StateMachine.cpp
+  Generating Code...
+Main.obj : error LNK2005: main already defined in CMakeCXXCompilerId.obj
+C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\space_invaders_build\bin\Debug\FLAPPY_BIRD.exe : fatal error LNK1169: one or more multiply defined symbols found

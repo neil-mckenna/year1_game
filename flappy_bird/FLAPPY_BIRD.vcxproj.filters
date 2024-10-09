@@ -1,22 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\AssetManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StateMachine.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="State.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AssetManager.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputManager.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\State.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,19 +41,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="State.hpp">
+    <ClInclude Include="DEFINTIONS.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="StateMachine.hpp">
+    <ClInclude Include="SplashState.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="AssetManager.hpp">
+    <ClInclude Include="MainMenuState.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="InputManager.hpp">
+    <ClInclude Include="GameState.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game.hpp">
+    <ClInclude Include="GameOverState.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

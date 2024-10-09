@@ -1,6 +1,3 @@
-C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/CMakeFiles/PRACTICAL_1.dir
-C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/CMakeFiles/PONG.dir
-C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/CMakeFiles/SPACE_INVADERS.dir
 C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/CMakeFiles/FLAPPY_BIRD.dir
 C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/CMakeFiles/PACKAGE.dir
 C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/CMakeFiles/INSTALL.dir

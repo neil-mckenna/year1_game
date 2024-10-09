@@ -17,22 +17,22 @@ set(SFML_INCS "lib/sfml/include")
 link_directories("${CMAKE_BINARY_DIR}/lib/sfml/lib")
 
 #### Practical 1 ####
-file(GLOB_RECURSE SOURCES practical_1/*.cpp practical_1/*.h)
-add_executable(PRACTICAL_1 ${SOURCES})
-target_include_directories(PRACTICAL_1 PRIVATE ${SFML_INCS})
-target_link_libraries(PRACTICAL_1 sfml-graphics)
+#file(GLOB_RECURSE SOURCES practical_1/*.cpp practical_1/*.h)
+#add_executable(PRACTICAL_1 ${SOURCES})
+#target_include_directories(PRACTICAL_1 PRIVATE ${SFML_INCS})
+#target_link_libraries(PRACTICAL_1 sfml-graphics)
 
 #### Pong ####
-file(GLOB_RECURSE SOURCES pong/*.cpp pong/*.h)
-add_executable(PONG ${SOURCES})
-target_include_directories(PONG PRIVATE ${SFML_INCS})
-target_link_libraries(PONG sfml-graphics)
+#file(GLOB_RECURSE SOURCES pong/*.cpp pong/*.h)
+#add_executable(PONG ${SOURCES})
+#target_include_directories(PONG PRIVATE ${SFML_INCS})
+#target_link_libraries(PONG sfml-graphics)
 
 #### SPACE_INVADERS ####
-file(GLOB_RECURSE SOURCES space_invaders/*.cpp space_invaders/*.h)
-add_executable(SPACE_INVADERS ${SOURCES})
-target_include_directories(SPACE_INVADERS PRIVATE ${SFML_INCS})
-target_link_libraries(SPACE_INVADERS sfml-graphics)
+#file(GLOB_RECURSE SOURCES space_invaders/*.cpp space_invaders/*.h)
+#add_executable(SPACE_INVADERS ${SOURCES})
+#target_include_directories(SPACE_INVADERS PRIVATE ${SFML_INCS})
+#target_link_libraries(SPACE_INVADERS sfml-graphics)
 
 #### FLAPPY_BIRD ####
 file(GLOB_RECURSE SOURCES flappy_bird/*.cpp flappy_bird/*.h)

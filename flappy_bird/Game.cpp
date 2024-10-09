@@ -1,12 +1,13 @@
 #include "Game.hpp"
+#include "SplashState.hpp"
 
 namespace Flappy
 {
 	Game::Game(int width, int height, string title)
 	{
-		_data->window.create(VideoMode(width, height), title, Style::Close || Style::Titlebar);
+		_data->window.create(VideoMode(width, height), title, Style::Close | Style::Titlebar);
 
-
+		_data->machine.AddState(StateRef(new SplashState(this->_data)), false);
 
 		this->Run();
 	}
