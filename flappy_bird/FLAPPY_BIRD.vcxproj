@@ -348,7 +348,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\StateMachine.cpp" />
     <ClCompile Include="GameOverState.cpp" />
     <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Land.cpp" />
     <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="Pipe.cpp" />
     <ClCompile Include="SplashState.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -375,7 +377,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="DEFINTIONS.hpp" />
     <ClInclude Include="GameOverState.hpp" />
     <ClInclude Include="GameState.hpp" />
+    <ClInclude Include="Land.hpp" />
     <ClInclude Include="MainMenuState.hpp" />
+    <ClInclude Include="Pipe.hpp" />
     <ClInclude Include="SplashState.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

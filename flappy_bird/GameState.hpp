@@ -3,6 +3,8 @@
 #include <SFML/Graphics.hpp>
 #include "State.hpp"
 #include "Game.hpp"
+#include "Pipe.hpp"
+#include "Land.hpp"
 #include <iostream>
 
 using namespace sf;
@@ -25,8 +27,16 @@ namespace Flappy
 		GameDataRef _data;
 
 		Sprite _background;
-		Sprite _title;
-		Sprite _playButton;
+
+		Pipe *pipe;
+		Land* land;
+
+		Clock clock;
+
+
+
+
+
 	};
 
 

@@ -11,24 +11,44 @@
       "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:GameState.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Land.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Land.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameOverState.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:GameOverState.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Land.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Land.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:MainMenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Pipe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Pipe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\DEFINTIONS.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:DEFINTIONS.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Pipe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Pipe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\DEFINTIONS.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:DEFINTIONS.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:MainMenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\StateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:StateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -47,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:State.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\AssetManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AssetManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\StateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|solutionrelative:StateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8904B3A7-A55F-35B0-A4D6-6E4F1EEC35C2}|FLAPPY_BIRD.vcxproj|C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -91,40 +99,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GameOverState.hpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameOverState.hpp",
-              "RelativeDocumentMoniker": "GameOverState.hpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameOverState.hpp",
-              "RelativeToolTip": "GameOverState.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T14:31:39.886Z",
+              "Title": "Land.cpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Land.cpp",
+              "RelativeDocumentMoniker": "Land.cpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Land.cpp",
+              "RelativeToolTip": "Land.cpp",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T15:54:00.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameOverState.cpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameOverState.cpp",
-              "RelativeDocumentMoniker": "GameOverState.cpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameOverState.cpp",
-              "RelativeToolTip": "GameOverState.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T14:31:24.936Z",
+              "Title": "Land.hpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Land.hpp",
+              "RelativeDocumentMoniker": "Land.hpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Land.hpp",
+              "RelativeToolTip": "Land.hpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T15:53:48.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameState.hpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameState.hpp",
-              "RelativeDocumentMoniker": "GameState.hpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameState.hpp",
-              "RelativeToolTip": "GameState.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Pipe.hpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Pipe.hpp",
+              "RelativeDocumentMoniker": "Pipe.hpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Pipe.hpp",
+              "RelativeToolTip": "Pipe.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T14:20:28.778Z",
+              "WhenOpened": "2024-10-09T14:55:25.363Z",
               "EditorCaption": ""
             },
             {
@@ -135,53 +143,92 @@
               "RelativeDocumentMoniker": "GameState.cpp",
               "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameState.cpp",
               "RelativeToolTip": "GameState.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-09T14:20:42.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAhwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T10:14:00.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T11:32:03.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DEFINTIONS.hpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\DEFINTIONS.hpp",
+              "RelativeDocumentMoniker": "DEFINTIONS.hpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\DEFINTIONS.hpp",
+              "RelativeToolTip": "DEFINTIONS.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T13:16:17.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pipe.cpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Pipe.cpp",
+              "RelativeDocumentMoniker": "Pipe.cpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Pipe.cpp",
+              "RelativeToolTip": "Pipe.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T14:55:14.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainMenuState.cpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.cpp",
               "RelativeDocumentMoniker": "MainMenuState.cpp",
               "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.cpp",
               "RelativeToolTip": "MainMenuState.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-09T13:55:18.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SplashState.cpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\SplashState.cpp",
-              "RelativeDocumentMoniker": "SplashState.cpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\SplashState.cpp",
-              "RelativeToolTip": "SplashState.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T13:19:42.369Z",
+              "DocumentIndex": 1,
+              "Title": "GameState.hpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameState.hpp",
+              "RelativeDocumentMoniker": "GameState.hpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\GameState.hpp",
+              "RelativeToolTip": "GameState.hpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T14:20:28.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "State.hpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.hpp",
-              "RelativeDocumentMoniker": "State.hpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.hpp",
-              "RelativeToolTip": "State.hpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T10:24:39.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "State.cpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.cpp",
               "RelativeDocumentMoniker": "State.cpp",
@@ -194,59 +241,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Main.cpp",
-              "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Main.cpp",
-              "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwA0AAAA5AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "StateMachine.cpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\StateMachine.cpp",
+              "RelativeDocumentMoniker": "StateMachine.cpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\StateMachine.cpp",
+              "RelativeToolTip": "StateMachine.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T10:14:00.614Z",
+              "WhenOpened": "2024-10-09T10:28:18.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "State.hpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.hpp",
+              "RelativeDocumentMoniker": "State.hpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\State.hpp",
+              "RelativeToolTip": "State.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T10:24:39.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MainMenuState.hpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.hpp",
               "RelativeDocumentMoniker": "MainMenuState.hpp",
               "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\MainMenuState.hpp",
               "RelativeToolTip": "MainMenuState.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-09T13:55:37.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Game.cpp",
-              "RelativeDocumentMoniker": "Game.cpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Game.cpp",
-              "RelativeToolTip": "Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T11:32:03.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DEFINTIONS.hpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\DEFINTIONS.hpp",
-              "RelativeDocumentMoniker": "DEFINTIONS.hpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\DEFINTIONS.hpp",
-              "RelativeToolTip": "DEFINTIONS.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T13:16:17.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "SplashState.cpp",
+              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\SplashState.cpp",
+              "RelativeDocumentMoniker": "SplashState.cpp",
+              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\SplashState.cpp",
+              "RelativeToolTip": "SplashState.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T13:19:42.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "AssetManager.hpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\AssetManager.hpp",
               "RelativeDocumentMoniker": "AssetManager.hpp",
@@ -254,12 +299,11 @@
               "RelativeToolTip": "AssetManager.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T10:52:33.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T10:52:33.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "SplashState.hpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\SplashState.hpp",
               "RelativeDocumentMoniker": "SplashState.hpp",
@@ -267,25 +311,11 @@
               "RelativeToolTip": "SplashState.hpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T13:19:57.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T13:19:57.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StateMachine.cpp",
-              "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\StateMachine.cpp",
-              "RelativeDocumentMoniker": "StateMachine.cpp",
-              "ToolTip": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\StateMachine.cpp",
-              "RelativeToolTip": "StateMachine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T10:28:18.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "InputManager.hpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\InputManager.hpp",
               "RelativeDocumentMoniker": "InputManager.hpp",
@@ -297,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "InputManager.cpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\InputManager.cpp",
               "RelativeDocumentMoniker": "InputManager.cpp",
@@ -309,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Game.hpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\Game.hpp",
               "RelativeDocumentMoniker": "Game.hpp",
@@ -321,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "AssetManager.cpp",
               "DocumentMoniker": "C:\\Users\\jakes\\OneDrive\\Desktop\\RedoGames\\year1_game\\flappy_bird\\AssetManager.cpp",
               "RelativeDocumentMoniker": "AssetManager.cpp",
