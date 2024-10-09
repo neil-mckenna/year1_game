@@ -24,10 +24,16 @@ namespace Flappy
 		void SpawnInvisiblePipe();
 		void MovePipes(float dt);
 		void DrawPipes();
+		void RandomizePipeOffset();
 
 	private:
 		GameDataRef _data;
 		vector<Sprite> pipeSprites;
+
+		int _landHeight;
+		int _pipeSpawnYOffset;
+
+
 	};
 
 

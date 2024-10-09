@@ -23,8 +23,14 @@ namespace Flappy
 		_data->assets.LoadTexture("Pipe Down", PIPE_DOWN_FILEPATH);
 		_data->assets.LoadTexture("Land", LAND_FILEPATH);
 
+		_data->assets.LoadTexture("Bird Frame 1", BIRD_FRAME_1_FILEPATH);
+		_data->assets.LoadTexture("Bird Frame 2", BIRD_FRAME_2_FILEPATH);
+		_data->assets.LoadTexture("Bird Frame 3", BIRD_FRAME_3_FILEPATH);
+		_data->assets.LoadTexture("Bird Frame 4", BIRD_FRAME_4_FILEPATH);
+
 		pipe = new Pipe( _data );
 		land = new Land( _data );
+		bird = new Bird( _data );
 
 		// assign to variables
 		_background.setTexture(this->_data->assets.GetTexture("Game Background"));
@@ -53,12 +59,10 @@ namespace Flappy
 			}*/
 
 
-			// spawn pipes tester by clicking the screen - TODO REMOVE THIS
+			//
 			if (_data->input.IsSpriteClicked(_background, Mouse::Left, _data->window))
 			{
-				/*pipe->SpawnTopPipe();
-				pipe->SpawnBottomPipe();
-				pipe->SpawnInvisiblePipe();*/
+				bird->Tap();
 			}
 
 			if (event.type == sf::Event::Resized) {
@@ -82,6 +86,8 @@ namespace Flappy
 
 		if (clock.getElapsedTime().asSeconds() > PIPE_SPAWN_FREQUENCY)
 		{
+			pipe->RandomizePipeOffset();
+
 			pipe->SpawnTopPipe();
 			pipe->SpawnBottomPipe();
 			pipe->SpawnInvisiblePipe();
@@ -89,6 +95,9 @@ namespace Flappy
 			clock.restart();
 
 		}
+
+		bird->Animate(dt);
+		bird->Update(dt);
 
 	}
 
@@ -100,6 +109,7 @@ namespace Flappy
 
 		pipe->DrawPipes();
 		land->DrawLand();
+		bird->Draw();
 
 
 		_data->window.display();

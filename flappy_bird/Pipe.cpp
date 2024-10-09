@@ -5,20 +5,17 @@ namespace Flappy
 {
 	Pipe::Pipe(GameDataRef data) : _data( data )
 	{
-
+		_landHeight = _data->assets.GetTexture("Land").getSize().y;
+		_pipeSpawnYOffset = 0;
 	}
 
-	Pipe::~Pipe()
-	{
-
-	}
 
 	void Pipe::SpawnBottomPipe()
 	{
 		Sprite sprite( _data->assets.GetTexture("Pipe Up"));
 		sprite.setPosition(
 			this->_data->window.getSize().x,
-			this->_data->window.getSize().y - sprite.getGlobalBounds().height);
+			this->_data->window.getSize().y - sprite.getGlobalBounds().height - _pipeSpawnYOffset);
 
 		pipeSprites.push_back(sprite);
 	}
@@ -28,7 +25,7 @@ namespace Flappy
 		Sprite sprite(_data->assets.GetTexture("Pipe Down"));
 		sprite.setPosition(
 			this->_data->window.getSize().x,
-			0);
+			- _pipeSpawnYOffset);
 
 		pipeSprites.push_back(sprite);
 	}
@@ -74,6 +71,16 @@ namespace Flappy
 		}
 	}
 
+	void Pipe::RandomizePipeOffset()
+	{
+		_pipeSpawnYOffset = rand() % (_landHeight + 1);
+
+	}
+
+	Pipe::~Pipe()
+	{
+
+	}
 
 
 }

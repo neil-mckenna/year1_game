@@ -1,10 +1,15 @@
 #include "Game.hpp"
 #include "SplashState.hpp"
 
+#include <stdlib.h>
+#include <time.h>
+
 namespace Flappy
 {
 	Game::Game(int width, int height, string title)
 	{
+		srand(time(NULL));
+
 		_data->window.create(VideoMode(width, height), title, Style::Close | Style::Titlebar | Style::Resize | Style::Default);
 
 		_data->machine.AddState(StateRef(new SplashState(this->_data)), false);

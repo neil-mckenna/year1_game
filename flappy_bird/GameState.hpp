@@ -5,6 +5,7 @@
 #include "Game.hpp"
 #include "Pipe.hpp"
 #include "Land.hpp"
+#include "Bird.hpp"
 #include <iostream>
 
 using namespace sf;
@@ -30,6 +31,7 @@ namespace Flappy
 
 		Pipe *pipe;
 		Land* land;
+		Bird* bird;
 
 		Clock clock;
 
