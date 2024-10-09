@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include "Game.hpp"
 
 using namespace sf;
 using namespace std;
@@ -10,21 +11,7 @@ constexpr auto SCREEN_HEIGHT = 1024;;
 
 int main()
 {
-	RenderWindow window(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, 32), "Flappy Bird");
+	Flappy::Game(1024, 1024, "Flappy Bord");
 
-	while (window.isOpen())
-	{
-		Event event;
-
-		while (window.pollEvent(event))
-		{
-
-
-
-
-		}
-
-	}
-
-	return 0;
+	return EXIT_SUCCESS;
 }

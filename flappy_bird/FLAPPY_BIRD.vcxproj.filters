@@ -13,6 +13,12 @@
     <ClCompile Include="AssetManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\CMakeLists.txt" />
@@ -30,6 +36,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="AssetManager.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
