@@ -1,0 +1,10 @@
+^C:\USERS\JAKES\ONEDRIVE\DESKTOP\REDOGAMES\YEAR1_GAME\FLAPPY_BIRD\CMAKEFILES\314C3B25BC11B736FC15EBFA3E4C87DE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game -BC:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/Games_Engineering.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

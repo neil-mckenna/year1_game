@@ -33,3 +33,9 @@ file(GLOB_RECURSE SOURCES space_invaders/*.cpp space_invaders/*.h)
 add_executable(SPACE_INVADERS ${SOURCES})
 target_include_directories(SPACE_INVADERS PRIVATE ${SFML_INCS})
 target_link_libraries(SPACE_INVADERS sfml-graphics)
+
+#### FLAPPY_BIRD ####
+file(GLOB_RECURSE SOURCES flappy_bird/*.cpp flappy_bird/*.h)
+add_executable(FLAPPY_BIRD ${SOURCES})
+target_include_directories(FLAPPY_BIRD PRIVATE ${SFML_INCS})
+target_link_libraries(FLAPPY_BIRD sfml-graphics)

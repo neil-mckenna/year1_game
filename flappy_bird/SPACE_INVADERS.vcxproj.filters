@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\space_invaders\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\space_invaders\Invader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\space_invaders\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\space_invaders\Ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{986979B4-CA93-384D-A753-F2DA6A1AF00D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
