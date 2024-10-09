@@ -347,8 +347,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Main.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\State.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\StateMachine.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Flash.cpp" />
     <ClCompile Include="GameOverState.cpp" />
     <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="HUD.cpp" />
     <ClCompile Include="Land.cpp" />
     <ClCompile Include="MainMenuState.cpp" />
     <ClCompile Include="Pipe.cpp" />
@@ -376,9 +379,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bird.hpp" />
+    <ClInclude Include="Collision.hpp" />
     <ClInclude Include="DEFINTIONS.hpp" />
+    <ClInclude Include="Flash.hpp" />
     <ClInclude Include="GameOverState.hpp" />
     <ClInclude Include="GameState.hpp" />
+    <ClInclude Include="HUD.hpp" />
     <ClInclude Include="Land.hpp" />
     <ClInclude Include="MainMenuState.hpp" />
     <ClInclude Include="Pipe.hpp" />

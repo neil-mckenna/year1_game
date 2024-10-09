@@ -40,6 +40,15 @@
     <ClCompile Include="Bird.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\CMakeLists.txt" />
@@ -72,6 +81,15 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Bird.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flash.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

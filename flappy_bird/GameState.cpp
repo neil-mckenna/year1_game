@@ -23,6 +23,8 @@ namespace Flappy
 		_data->assets.LoadTexture("Pipe Down", PIPE_DOWN_FILEPATH);
 		_data->assets.LoadTexture("Land", LAND_FILEPATH);
 
+		_data->assets.LoadTexture("Scoring Pipe", SCORING_PIPE_FILEPATH);
+
 		_data->assets.LoadTexture("Bird Frame 1", BIRD_FRAME_1_FILEPATH);
 		_data->assets.LoadTexture("Bird Frame 2", BIRD_FRAME_2_FILEPATH);
 		_data->assets.LoadTexture("Bird Frame 3", BIRD_FRAME_3_FILEPATH);
@@ -32,8 +34,15 @@ namespace Flappy
 		land = new Land( _data );
 		bird = new Bird( _data );
 
+		// flash
+		flash = new Flash(_data);
+
 		// assign to variables
 		_background.setTexture(this->_data->assets.GetTexture("Game Background"));
+
+		_score = 0;
+
+		_gameState = GameStates::eReady;
 
 
 	}
@@ -62,7 +71,13 @@ namespace Flappy
 			//
 			if (_data->input.IsSpriteClicked(_background, Mouse::Left, _data->window))
 			{
-				bird->Tap();
+				if (GameStates::eGameOver != _gameState)
+				{
+					_gameState = GameStates::ePlaying;
+					bird->Tap();
+
+				}
+
 			}
 
 			if (event.type == sf::Event::Resized) {
@@ -81,23 +96,94 @@ namespace Flappy
 
 	void GameState::Update(float dt)
 	{
-		pipe->MovePipes(dt);
-		land->MoveLand(dt);
-
-		if (clock.getElapsedTime().asSeconds() > PIPE_SPAWN_FREQUENCY)
+		if (GameStates::eGameOver != _gameState)
 		{
-			pipe->RandomizePipeOffset();
-
-			pipe->SpawnTopPipe();
-			pipe->SpawnBottomPipe();
-			pipe->SpawnInvisiblePipe();
-
-			clock.restart();
+			bird->Animate(dt);
+			land->MoveLand(dt);
 
 		}
 
-		bird->Animate(dt);
-		bird->Update(dt);
+		if (GameStates::ePlaying == _gameState)
+		{
+			pipe->MovePipes(dt);
+
+			if (clock.getElapsedTime().asSeconds() > PIPE_SPAWN_FREQUENCY)
+			{
+				pipe->RandomizePipeOffset();
+
+				pipe->SpawnTopPipe();
+				pipe->SpawnBottomPipe();
+				pipe->SpawnInvisiblePipe();
+				pipe->SpawnScoringPipe();
+
+				clock.restart();
+
+			}
+
+			bird->Update(dt);
+
+			// collision with ground
+			vector<Sprite> landSprites = land->GetSprites();
+			for (int i = 0; i < landSprites.size(); i++)
+			{
+				if (collision.CheckSpriteCollision(
+					bird->GetSprite(),
+					0.75f,
+					landSprites.at(i),
+					1.0f
+					))
+				{
+					_gameState = GameStates::eGameOver;
+
+				}
+			}
+
+			// collision with pipes
+			vector<Sprite> pipeSprites = pipe->GetSprites();
+			for (int i = 0; i < pipeSprites.size(); i++)
+			{
+				if (collision.CheckSpriteCollision(
+					bird->GetSprite(),
+					0.625f,
+					pipeSprites.at(i),
+					1.0f
+					))
+				{
+					_gameState = GameStates::eGameOver;
+				}
+			}
+
+			// collision with scoring pipes
+			if (GameStates::ePlaying == _gameState)
+			{
+				vector<Sprite> scoringSprites = pipe->GetScoringSprites();
+				for (int i = 0; i < scoringSprites.size(); i++)
+				{
+					if (collision.CheckSpriteCollision(
+						bird->GetSprite(),
+						0.625f,
+						scoringSprites.at(i),
+						1.0f
+					))
+					{
+						_score++;
+
+						//cout << "Score is : " << _score << endl;
+
+						scoringSprites.erase(scoringSprites.begin() + i);
+					}
+				}
+
+			}
+
+
+		}
+
+		if (GameStates::eGameOver == _gameState)
+		{
+			flash->Show(dt);
+		}
+
 
 	}
 
@@ -110,6 +196,7 @@ namespace Flappy
 		pipe->DrawPipes();
 		land->DrawLand();
 		bird->Draw();
+		flash->Draw(dt);
 
 
 		_data->window.display();

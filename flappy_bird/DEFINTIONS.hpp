@@ -8,6 +8,9 @@ namespace Flappy
 #define SCREEN_HEIGHT 1024
 #define SPLASH_STATE_SHOW_TIME 3.0
 
+// Fonts
+#define FLAPPY_FONT_FILEPATH "Resources/fonts/Flappy.ttf"
+
 // backgrounds
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "Resources/res/Splash Background.png"
 
@@ -19,10 +22,11 @@ namespace Flappy
 #define PIPE_DOWN_FILEPATH "Resources/res/PipeDown.png"
 #define GAME_TITLE_FILEPATH "Resources/res/title.png"
 #define PLAY_BUTTON_FILEPATH "Resources/res/PlayButton.png"
+#define SCORING_PIPE_FILEPATH "Resources/res/InvisibleScoringPipe.png"
 
 // Pipe Parameters
 #define PIPE_MOVEMENT_SPEED 200.0f
-#define PIPE_SPAWN_FREQUENCY 1.2f
+#define PIPE_SPAWN_FREQUENCY 2.2f
 
 // land texture
 #define LAND_FILEPATH "Resources/res/Land.png"
@@ -44,6 +48,17 @@ namespace Flappy
 
 #define FLYING_DURATION 0.25f
 #define ROTATION_SPEED 100.0f
+
+enum GameStates
+{
+	eReady,
+	ePlaying,
+	eGameOver
+
+};
+
+#define FLASH_SPEED 1500.0f
+
 
 
 

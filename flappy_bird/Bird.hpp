@@ -24,6 +24,8 @@ namespace Flappy
 		void Update(float dt);
 		void Tap();
 
+		const Sprite& GetSprite() const;
+
 
 	private:
 		GameDataRef _data;

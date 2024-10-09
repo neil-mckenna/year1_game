@@ -42,6 +42,12 @@ namespace Flappy
 		}
 	}
 
+	const vector<Sprite>& Land::GetSprites() const
+	{
+		return _landSprites;
+
+	}
+
 	Land::~Land()
 	{
 
