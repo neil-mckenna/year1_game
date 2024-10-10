@@ -4,49 +4,49 @@
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\AssetManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\HUD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Main.cpp">
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Land.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\SplashState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\State.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\StateMachine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SplashState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainMenuState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameOverState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pipe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Land.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Bird.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Collision.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Flash.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HUD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -57,43 +57,5 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{986979B4-CA93-384D-A753-F2DA6A1AF00D}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DEFINTIONS.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SplashState.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MainMenuState.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameState.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameOverState.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Pipe.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Land.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Bird.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Collision.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Flash.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HUD.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Resources\HighScore.txt" />
   </ItemGroup>
 </Project>

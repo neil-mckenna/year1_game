@@ -76,6 +76,12 @@ enum GameStates
 #define PLATINUM_MEDAL_SCORE 150
 
 
+#define HIT_SOUND_FILEPATH "Resources/audio/Hit.wav"
+#define POINT_SOUND_FILEPATH "Resources/audio/Point.wav"
+#define WING_SOUND_FILEPATH "Resources/audio/Wing.wav"
+
+
+
 
 
 

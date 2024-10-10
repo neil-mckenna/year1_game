@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/lib/sfml/src/SFML/Window/CMakeLists.txt
+  Clipboard.cpp
+  Context.cpp
+  Cursor.cpp
+  GlContext.cpp
+  GlResource.cpp
+  Joystick.cpp
+  JoystickManager.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Touch.cpp
+  Sensor.cpp
+  SensorManager.cpp
+  VideoMode.cpp
+  Vulkan.cpp
+  Window.cpp
+  WindowBase.cpp
+  WindowImpl.cpp
+  CursorImpl.cpp
+  ClipboardImpl.cpp
+  InputImpl.cpp
+  Generating Code...
+  Compiling...
+  JoystickImpl.cpp
+  SensorImpl.cpp
+  VideoModeImpl.cpp
+  VulkanImplWin32.cpp
+  WindowImplWin32.cpp
+  WglContext.cpp
+  Generating Code...
+     Creating library C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/Release/sfml-window.lib and object C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/Release/sfml-window.exp
+  sfml-window.vcxproj -> C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Release\sfml-window-2.dll

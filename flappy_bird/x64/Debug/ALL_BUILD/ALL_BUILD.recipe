@@ -8,6 +8,9 @@
       <FullPath>C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Debug\sfml-system-d-2.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Debug\sfml-audio-d-2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Debug\sfml-window-d-2.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
@@ -15,9 +18,6 @@
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Debug\FLAPPY_BIRD.exe</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Debug\sfml-audio-d-2.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Debug\sfml-network-d-2.dll</FullPath>

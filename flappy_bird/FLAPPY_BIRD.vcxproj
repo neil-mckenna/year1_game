@@ -120,7 +120,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\sfml\lib\Debug\sfml-graphics-d.lib;lib\sfml\lib\Debug\sfml-window-d.lib;lib\sfml\lib\Debug\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\sfml\lib\Debug\sfml-graphics-d.lib;lib\sfml\lib\Debug\sfml-audio-d.lib;lib\sfml\lib\Debug\sfml-window-d.lib;lib\sfml\lib\Debug\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib;C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -128,6 +128,9 @@
       <ImportLibrary>C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/Debug/FLAPPY_BIRD.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/bin/Debug/FLAPPY_BIRD.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <NoEntryPoint>false</NoEntryPoint>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -170,7 +173,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\sfml\lib\Release\sfml-graphics.lib;lib\sfml\lib\Release\sfml-window.lib;lib\sfml\lib\Release\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\sfml\lib\Release\sfml-graphics.lib;lib\sfml\lib\Release\sfml-audio.lib;lib\sfml\lib\Release\sfml-window.lib;lib\sfml\lib\Release\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib;C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -220,7 +223,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\sfml\lib\MinSizeRel\sfml-graphics.lib;lib\sfml\lib\MinSizeRel\sfml-window.lib;lib\sfml\lib\MinSizeRel\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\sfml\lib\MinSizeRel\sfml-graphics.lib;lib\sfml\lib\MinSizeRel\sfml-audio.lib;lib\sfml\lib\MinSizeRel\sfml-window.lib;lib\sfml\lib\MinSizeRel\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib;C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -269,7 +272,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\sfml\lib\RelWithDebInfo\sfml-graphics.lib;lib\sfml\lib\RelWithDebInfo\sfml-window.lib;lib\sfml\lib\RelWithDebInfo\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\sfml\lib\RelWithDebInfo\sfml-graphics.lib;lib\sfml\lib\RelWithDebInfo\sfml-audio.lib;lib\sfml\lib\RelWithDebInfo\sfml-window.lib;lib\sfml\lib\RelWithDebInfo\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib;C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -340,22 +343,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bird.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\AssetManager.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Bird.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Collision.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Flash.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Game.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\GameOverState.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\GameState.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\HUD.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\InputManager.cpp" />
-    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Main.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Land.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\MainMenuState.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\Pipe.cpp" />
+    <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\SplashState.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\State.cpp" />
     <ClCompile Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\StateMachine.cpp" />
-    <ClCompile Include="Collision.cpp" />
-    <ClCompile Include="Flash.cpp" />
-    <ClCompile Include="GameOverState.cpp" />
-    <ClCompile Include="GameState.cpp" />
-    <ClCompile Include="HUD.cpp" />
-    <ClCompile Include="Land.cpp" />
-    <ClCompile Include="MainMenuState.cpp" />
-    <ClCompile Include="Pipe.cpp" />
-    <ClCompile Include="SplashState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\ZERO_CHECK.vcxproj">
@@ -363,6 +366,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\lib\sfml\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{0CDB636C-81BB-303B-8DBD-1AED72DAD050}</Project>
+      <Name>sfml-audio</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\lib\sfml\src\SFML\Graphics\sfml-graphics.vcxproj">
       <Project>{A3C14FF0-C74D-36BB-AC78-A3E629335199}</Project>
@@ -376,22 +383,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{6921CB37-C0FB-3022-A88E-6102CAA23157}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Bird.hpp" />
-    <ClInclude Include="Collision.hpp" />
-    <ClInclude Include="DEFINTIONS.hpp" />
-    <ClInclude Include="Flash.hpp" />
-    <ClInclude Include="GameOverState.hpp" />
-    <ClInclude Include="GameState.hpp" />
-    <ClInclude Include="HUD.hpp" />
-    <ClInclude Include="Land.hpp" />
-    <ClInclude Include="MainMenuState.hpp" />
-    <ClInclude Include="Pipe.hpp" />
-    <ClInclude Include="SplashState.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Resources\HighScore.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

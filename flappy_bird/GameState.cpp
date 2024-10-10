@@ -17,6 +17,28 @@ namespace Flappy
 	{
 		cout << "Game Initilaised" << endl;
 
+		if (!_hitSoundBuffer.loadFromFile(HIT_SOUND_FILEPATH))
+		{
+			cout << "Error HIT sound file not loaded! " << endl;
+		}
+
+		if (!_pointSoundBuffer.loadFromFile(POINT_SOUND_FILEPATH))
+		{
+			cout << "Error POINT sound file not loaded! " << endl;
+		}
+
+		if (!_wingSoundBuffer.loadFromFile(WING_SOUND_FILEPATH))
+		{
+			cout << "Error WING sound file not loaded! " << endl;
+		}
+
+		_hitSound.setBuffer(_hitSoundBuffer);
+		_pointSound.setBuffer(_pointSoundBuffer);
+		_wingSound.setBuffer(_wingSoundBuffer);
+
+
+
+
 		// grab textures
 		_data->assets.LoadTexture("Game Background", GAME_BACKGROUND_FILEPATH);
 		_data->assets.LoadTexture("Pipe Up", PIPE_UP_FILEPATH);
@@ -80,6 +102,8 @@ namespace Flappy
 					_gameState = GameStates::ePlaying;
 					bird->Tap();
 
+					_wingSound.play();
+
 				}
 
 			}
@@ -138,7 +162,9 @@ namespace Flappy
 					))
 				{
 					_gameState = GameStates::eGameOver;
+					clock.restart();
 
+					_hitSound.play();
 				}
 			}
 
@@ -155,6 +181,7 @@ namespace Flappy
 				{
 					_gameState = GameStates::eGameOver;
 					clock.restart();
+					_hitSound.play();
 
 				}
 			}
@@ -177,6 +204,8 @@ namespace Flappy
 						hud->UpdateScore(_score);
 
 						scoringSprites.erase(scoringSprites.begin() + i);
+
+						_pointSound.play();
 					}
 				}
 

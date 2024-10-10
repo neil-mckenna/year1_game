@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/lib/sfml/src/SFML/Network/CMakeLists.txt
+  Ftp.cpp
+  Http.cpp
+  IpAddress.cpp
+  Packet.cpp
+  Socket.cpp
+  SocketSelector.cpp
+  TcpListener.cpp
+  TcpSocket.cpp
+  UdpSocket.cpp
+  SocketImpl.cpp
+  Generating Code...
+     Creating library C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/Release/sfml-network.lib and object C:/Users/jakes/OneDrive/Desktop/RedoGames/year1_game/flappy_bird/lib/sfml/lib/Release/sfml-network.exp
+  sfml-network.vcxproj -> C:\Users\jakes\OneDrive\Desktop\RedoGames\year1_game\flappy_bird\bin\Release\sfml-network-2.dll
