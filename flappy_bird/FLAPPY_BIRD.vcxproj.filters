@@ -93,4 +93,7 @@
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\HighScore.txt" />
+  </ItemGroup>
 </Project>

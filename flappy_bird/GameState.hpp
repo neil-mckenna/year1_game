@@ -9,6 +9,7 @@
 #include "Bird.hpp"
 #include "Collision.hpp"
 #include "Flash.hpp"
+#include "HUD.hpp"
 
 using namespace sf;
 using namespace std;
@@ -32,10 +33,11 @@ namespace Flappy
 		Sprite _background;
 
 		Pipe *pipe;
-		Land* land;
-		Bird* bird;
+		Land *land;
+		Bird *bird;
 		Collision collision;
-		Flash* flash;
+		Flash *flash;
+		HUD *hud;
 
 		Clock clock;
 

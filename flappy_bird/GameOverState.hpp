@@ -13,7 +13,7 @@ namespace Flappy
 	class GameOverState : public State
 	{
 	public:
-		GameOverState(GameDataRef data);
+		GameOverState(GameDataRef data, int score);
 
 		void Init();
 
@@ -25,8 +25,19 @@ namespace Flappy
 		GameDataRef _data;
 
 		Sprite _background;
-		Sprite _title;
-		Sprite _playButton;
+
+		Sprite _gameOverTitle;
+		Sprite _gameOverBody;
+		Sprite _retryButton;
+		Sprite _medal;
+
+		Text _scoreText;
+		Text _highScoreText;
+
+		int _score;
+		int _highScore;
+
+
 	};
 
 

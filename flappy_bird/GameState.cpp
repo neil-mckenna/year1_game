@@ -24,6 +24,8 @@ namespace Flappy
 		_data->assets.LoadTexture("Land", LAND_FILEPATH);
 
 		_data->assets.LoadTexture("Scoring Pipe", SCORING_PIPE_FILEPATH);
+		// font
+		_data->assets.LoadFont("Flappy Font", FLAPPY_FONT_FILEPATH);
 
 		_data->assets.LoadTexture("Bird Frame 1", BIRD_FRAME_1_FILEPATH);
 		_data->assets.LoadTexture("Bird Frame 2", BIRD_FRAME_2_FILEPATH);
@@ -33,6 +35,7 @@ namespace Flappy
 		pipe = new Pipe( _data );
 		land = new Land( _data );
 		bird = new Bird( _data );
+		hud = new HUD(_data);
 
 		// flash
 		flash = new Flash(_data);
@@ -41,6 +44,7 @@ namespace Flappy
 		_background.setTexture(this->_data->assets.GetTexture("Game Background"));
 
 		_score = 0;
+		hud->UpdateScore(_score);
 
 		_gameState = GameStates::eReady;
 
@@ -150,6 +154,8 @@ namespace Flappy
 					))
 				{
 					_gameState = GameStates::eGameOver;
+					clock.restart();
+
 				}
 			}
 
@@ -168,11 +174,13 @@ namespace Flappy
 					{
 						_score++;
 
-						//cout << "Score is : " << _score << endl;
+						hud->UpdateScore(_score);
 
 						scoringSprites.erase(scoringSprites.begin() + i);
 					}
 				}
+
+
 
 			}
 
@@ -182,7 +190,16 @@ namespace Flappy
 		if (GameStates::eGameOver == _gameState)
 		{
 			flash->Show(dt);
+
+			if (clock.getElapsedTime().asSeconds() > TIME_BEFORE_GAME_APPEARS)
+			{
+				_data->machine.AddState(StateRef(new GameOverState( _data, _score )), true);
+			}
+
+
 		}
+
+
 
 
 	}
@@ -196,6 +213,7 @@ namespace Flappy
 		pipe->DrawPipes();
 		land->DrawLand();
 		bird->Draw();
+		hud->Draw();
 		flash->Draw(dt);
 
 

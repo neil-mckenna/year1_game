@@ -9,7 +9,10 @@ namespace Flappy
 #define SPLASH_STATE_SHOW_TIME 3.0
 
 // Fonts
-#define FLAPPY_FONT_FILEPATH "Resources/fonts/Flappy.ttf"
+#define FLAPPY_FONT_FILEPATH "Resources/fonts/FlappyFont.ttf"
+
+#define GAME_OVER_TITLE_FILEPATH "Resources/res/Game-Over-Title.png"
+#define GAME_OVER_BODY_FILEPATH "Resources/res/Game-Over-Body.png"
 
 // backgrounds
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "Resources/res/Splash Background.png"
@@ -58,6 +61,21 @@ enum GameStates
 };
 
 #define FLASH_SPEED 1500.0f
+#define TIME_BEFORE_GAME_APPEARS 1.5f
+
+#define HIGH_SCORE_TEXT_FILEPATH "Resources/HighScore.txt"
+
+#define BRONZE_MEDAL_FILEPATH "Resources/res/Bronze-Medal.png"
+#define SILVER_MEDAL_FILEPATH "Resources/res/Silver-Medal.png"
+#define GOLD_MEDAL_FILEPATH "Resources/res/Gold-Medal.png"
+#define PLATINUM_MEDAL_FILEPATH "Resources/res/Platinum-Medal.png"
+
+#define BRONZE_MEDAL_SCORE 0
+#define SILVER_MEDAL_SCORE 50
+#define GOLD_MEDAL_SCORE 100
+#define PLATINUM_MEDAL_SCORE 150
+
+
 
 
 
